@@ -1,8 +1,8 @@
 <!-- changable information -->
 
-[challengeguide]: https://wellssa.github.io/jsexpert-challenge-guide/
-[csvdesafio]: https://github.com/WellsSA/jsexpert-challenge05-regexp/blob/master/docs/projeto-de-lei.csv
-[extrahints]: https://github.com/WellsSA/jsexpert-challenge05-regexp/blob/master/DICAS_EXTRAS.md
+[challengeguide]: https://training-erickwendel.github.io/jsexpert-challenge-guide/
+[csvdesafio]: https://github.com/training-erickwendel/jsexpert-challenge05-regexp/blob/master/docs/projeto-de-lei.csv
+[extrahints]: https://github.com/training-erickwendel/jsexpert-challenge05-regexp/blob/master/DICAS_EXTRAS.md
 
 <!-- description links -->
 
