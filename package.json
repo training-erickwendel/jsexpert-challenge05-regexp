@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
+    "start:log": "node src/index.js | tee logs.txt",
     "test": "npx mocha --parallel test/*.test.js",
     "test:dev": "npx mocha -w test/*.test.js",
     "test:cov": "npx nyc npx mocha --parallel test/*.test.js"
