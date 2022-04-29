@@ -1,1 +1,16 @@
-// TODO: Dê uma olhada no projeto oficial do módulo 06 (Expressões Regulares - RegExp) para implementar este arquivo.
+const safeRegex = require('safe-regex')
+class InvalidRegexError extends Error {
+  constructor(exp) {
+    super(`This ${exp} is unsafe dude!`)
+    this.name = "InvalideRegexError"
+  }
+}
+
+const evaluateRegex = (exp) => {
+  const isSafe = safeRegex(exp)
+  if (isSafe) return exp
+
+  throw new InvalidRegexError(exp)
+}
+
+module.exports = { evaluateRegex, InvalidRegexError }
